@@ -1,0 +1,44 @@
+<svg class="scene" viewBox="0 0 600 500" role="img" aria-label="Иллюстрация: старый Тбилиси — крепость на холме, дома с резными балконами и река">
+    <defs>
+      <linearGradient id="tsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dfe4"/><stop offset="1" stop-color="#fdf6f2"/></linearGradient>
+      <linearGradient id="thill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c9a6a0"/><stop offset="1" stop-color="#a77d78"/></linearGradient>
+      <linearGradient id="triver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a2a47"/><stop offset="1" stop-color="#5c1830"/></linearGradient>
+      <linearGradient id="twall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fffaf6"/><stop offset="1" stop-color="#ead8d0"/></linearGradient>
+      <g id="balc"><rect width="34" height="16" fill="#8a5a3c"/><g stroke="#f3e3cf" stroke-width="2"><path d="M4 2v12M10 2v12M16 2v12M22 2v12M28 2v12"/></g><rect y="-3" width="34" height="4" fill="#6e4129"/></g>
+      <g id="twin"><rect width="9" height="14" rx="4.5" fill="#5c1830" opacity=".75"/></g>
+    </defs>
+    <rect width="600" height="500" rx="8" fill="url(#tsky)"/>
+    <circle cx="120" cy="88" r="34" fill="#f3c27a" opacity=".9"/>
+    <path d="M0 250 C90 190 170 120 260 112 C340 106 380 150 440 170 C510 192 560 180 600 168 L600 330 L0 330Z" fill="#dcc0ba"/>
+    <path d="M150 300 C210 190 270 150 330 146 C400 142 440 200 520 230 L600 250 L600 340 L120 340Z" fill="url(#thill)"/>
+    <g fill="#7c4f49">
+      <path d="M286 150 h70 v-22 h-8 v-8 h-8 v8 h-8 v-8 h-8 v8 h-8 v-8 h-8 v8 h-8 v-8 h-8 v8 h-6Z"/>
+      <path d="M356 150 l24 26 h-10 l-20 -20Z"/>
+      <rect x="300" y="104" width="14" height="24"/><path d="M297 104 h20 v-6 h-4 v-4 h-4 v4 h-4 v-4 h-4 v4 h-4Z"/>
+    </g>
+    <rect x="470" y="62" width="6" height="118" fill="#9a6f6a"/><path d="M462 180 L473 70 L484 180Z" fill="none" stroke="#9a6f6a" stroke-width="3"/>
+    <g>
+      <rect x="40" y="250" width="92" height="98" fill="url(#twall)"/><path d="M34 252 L86 222 L138 252Z" fill="#b5523b"/>
+      <use href="#balc" x="50" y="290"/><use href="#balc" x="88" y="290"/>
+      <use href="#twin" x="56" y="262"/><use href="#twin" x="80" y="262"/><use href="#twin" x="104" y="262"/>
+      <rect x="140" y="232" width="78" height="116" fill="url(#twall)"/><path d="M134 234 L179 206 L224 234Z" fill="#9c3f2f"/>
+      <use href="#balc" x="150" y="266"/><use href="#balc" x="150" y="306"/>
+      <use href="#twin" x="196" y="250"/><use href="#twin" x="196" y="290"/>
+      <rect x="226" y="262" width="86" height="86" fill="url(#twall)"/><path d="M220 264 L269 238 L318 264Z" fill="#b5523b"/>
+      <use href="#balc" x="236" y="296"/><use href="#balc" x="272" y="296"/>
+      <use href="#twin" x="244" y="272"/><use href="#twin" x="266" y="272"/><use href="#twin" x="288" y="272"/>
+      <rect x="320" y="244" width="70" height="104" fill="url(#twall)"/><path d="M314 246 L355 222 L396 246Z" fill="#9c3f2f"/>
+      <use href="#balc" x="330" y="278"/><use href="#twin" x="336" y="304"/><use href="#twin" x="360" y="304"/>
+      <path d="M408 348 V268 a26 26 0 0 1 52 0 V348Z" fill="#efe1d9"/><path d="M402 270 L434 236 L466 270Z" fill="#7c4f49"/><rect x="430" y="212" width="8" height="26" fill="#7c4f49"/><path d="M425 214 h18 l-9 -14Z" fill="#7c4f49"/>
+      <rect x="472" y="258" width="88" height="90" fill="url(#twall)"/><path d="M466 260 L516 234 L566 260Z" fill="#b5523b"/>
+      <use href="#balc" x="482" y="292"/><use href="#balc" x="520" y="292"/>
+      <use href="#twin" x="490" y="270"/><use href="#twin" x="512" y="270"/><use href="#twin" x="534" y="270"/>
+    </g>
+    <rect x="0" y="346" width="600" height="12" fill="#c9a6a0"/>
+    <rect x="0" y="358" width="600" height="142" fill="url(#triver)"/>
+    <g stroke="#c98197" stroke-width="3" stroke-linecap="round" opacity=".55" fill="none">
+      <path d="M40 392 h70"/><path d="M200 420 h90"/><path d="M380 386 h60"/><path d="M470 440 h90"/><path d="M90 468 h70"/><path d="M300 476 h60"/>
+    </g>
+    <path d="M150 358 q120 -46 240 0" fill="none" stroke="#e8d2c9" stroke-width="8"/>
+    <g stroke="#e8d2c9" stroke-width="3"><path d="M190 346 v12M230 336 v22M270 332 v26M310 333 v25M350 340 v18"/></g>
+  </svg>
